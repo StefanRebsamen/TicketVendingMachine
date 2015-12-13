@@ -66,13 +66,14 @@ public class Controller {
 	 * Führt die Ablaufkontrolle aus
 	 */
 	public void run()
-	{		
+	{	
+		//
+		@SuppressWarnings("resource")
+		Scanner input = new Scanner(System.in);
+		
 		// bis zum St.Nimmerleinstag
 		while (true)
-		{
-			//
-			Scanner input = new Scanner(System.in);
-			
+		{			
 			// Benutzer muss ein Produkt auswählen
 			System.out.println("===================================================================================");
 			System.out.println("Bitte wähle ein Produkt aus:");
@@ -95,8 +96,6 @@ public class Controller {
 			// Ticket wird ausgedruckt
 			selectedProduct.print();
 			
-			// close input scanner
-			input.close();
 		}		
 	}
 	
