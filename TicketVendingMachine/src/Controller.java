@@ -106,8 +106,10 @@ public class Controller {
 		// definiere Produkte, welche verfügbar sind 	
 		products.add(new Single(2, 2.80f, printerNormal));
 		products.add(new Single(3, 3.50f, printerNormal));
+		products.add(new Single(4, 4.20f, printerNormal));
 		products.add(new Multiple(2, 15.20f, printerPunchable));
 		products.add(new Multiple(3, 18.30f, printerPunchable));	
+		products.add(new Multiple(4, 20.10f, printerPunchable));	
 		products.add(new Daily(9.9f, printerPunchable));
 		
 		// erstelle Bezahl-Systeme

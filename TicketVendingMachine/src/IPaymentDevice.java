@@ -12,7 +12,7 @@ public interface IPaymentDevice
 	void encash(float amount);
 	
 	/**
-	 * Gibt den Namen des Bezahltgerätes wieder
+	 * Gibt den Namen des Bezahlgerätes wieder
 	 */
 	String getName();	
 }

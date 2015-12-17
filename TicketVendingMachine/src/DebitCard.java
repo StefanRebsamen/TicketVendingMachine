@@ -6,7 +6,7 @@ public class DebitCard implements IPaymentDevice
 	 */
 	public DebitCard() 
 	{
-		System.out.println("Münzenwurf wurde initialisiert");
+		System.out.println("Debitkarten-Gerät wurde initialisiert");
 	}
 
 	@Override

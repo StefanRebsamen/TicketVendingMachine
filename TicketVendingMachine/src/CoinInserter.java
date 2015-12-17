@@ -9,7 +9,7 @@ public class CoinInserter implements IPaymentDevice
 	 */
 	public CoinInserter() 
 	{
-		System.out.println("Münzenwurf wurde initialisiert");
+		System.out.println("Münzeinwurf wurde initialisiert");
 	}
 
 	@Override
