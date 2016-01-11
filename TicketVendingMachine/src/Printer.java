@@ -10,17 +10,16 @@ public class Printer {
 	private final int ticketLength;
 	
 	// Anzahl Zeilen, welche für das aktuelle Ticket bereits bereits gedruckt wurden
-	private int printedLines = 0;	// ZUSTAND
-
+	private int printedLines = 0;	// ZUSTAND	
 	
 	/**
 	 * Konstruktor
 	 * @param width	Breite der Tickets
 	 * @param length Länge der Tickets
 	 */
-	public Printer(int width, int length)		// KONSTUKTOR (Initialisierung)
+	public Printer(int ticketWidth, int length)		// KONSTRUKTOR (Initialisierung)
 	{
-		this.ticketWidth = width;
+		this.ticketWidth = ticketWidth;
 		this.ticketLength = length;
 	}
 

@@ -1,5 +1,6 @@
 import static org.junit.Assert.*;
 
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -17,9 +18,13 @@ public class PrinterTests {
 	public void testNormal() 
 	{
 		printer.beginTicket();		
+		Assert.assertEquals(0, printer.getPrintedLines());
+		
 		printer.println("Zeile 1");
 		printer.println("Zeile 2, etwas länger");
-		printer.endTicket();				
+		Assert.assertEquals(2, printer.getPrintedLines());
+	
+		printer.endTicket();
 	}
 
 }

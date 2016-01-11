@@ -59,7 +59,7 @@ public class Controller {
 	
 	/**
 	 * Fragt nach einer Eingabe, bis eine gültige ganze Zahl eingegeben wurde
-	 * @return Vom Benutzer eigegebene ganze Zahl
+	 * @return Vom Benutzer eingegebene ganze Zahl
 	 */
 	public int getIntUserInput()
 	{
@@ -121,7 +121,8 @@ public class Controller {
 	 * Führt die Ablaufkontrolle aus
 	 */
 	public void run()
-	{			
+	{
+	
 		// bis zum St.Nimmerleinstag
 		while (true)
 		{			
