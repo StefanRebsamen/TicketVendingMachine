@@ -20,7 +20,7 @@ public class CoinInserter implements IPaymentDevice
 		void changeReturned(float value);
 	}
 	
-	// Betrag, welcher im aktuelleb Bezahlvorgang bereits eingegeben wurde
+	// Betrag, welcher im aktuellen Bezahlvorgang bereits eingegeben wurde
 	private float inserted;
 	
 	
