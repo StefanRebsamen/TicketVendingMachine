@@ -39,7 +39,7 @@ public class PrinterTests {
 	 * Prüft, ob bei Überschreiten der Länge eines Ticket eine Eception ausgeworfen wird 
 	 */
 	@Test(expected = IllegalStateException.class)
-	public void expetionIfLengthIsExceeded() 
+	public void exceptionIfLengthIsExceeded() 
 	{
 		printer.beginTicket();
 		for (int i=1; i<=11; i++)
